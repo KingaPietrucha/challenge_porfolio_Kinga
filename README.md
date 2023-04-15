@@ -12,19 +12,19 @@ Podjełam się wyzwania ponieważ odkąd ukończyłam kurs na testera manualnego
 //*[@id="__next"]/form/div/div[1]/h5
 //*[text()="Scouts Panel"]
 //*[contains(@class, "MuiTypography-root MuiTypography")]
-## sign_in_button_xpath
+### sign_in_button_xpath
 //*[@id="__next"]/form/div/div[2]/button/span[1]
 //*[text()="Sign in"]
 //*[contains(@class, "MuiButton-label")]
-## Login_xpath
+### Login_xpath
 //*[@id="login"]
 //*[text()="Login"]
 //*[contains(@class, "MuiInputBase-input")]
-## password_field_xpath
+### password_field_xpath
 //*[@id="password"]
 //*[text()="Password"]
 //*[contains(@class, "MuiInputBase-input MuiInput-input")]
-## remaind_password_hyperlink_xpath
+### remaind_password_hyperlink_xpath
 //*[@id="__next"]/form/div/div[1]/a
 //*[text()="Remind password"]
 //child::div/a
