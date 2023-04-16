@@ -1,6 +1,5 @@
 from pages.base_page import BasePage
 
-
 class Add_match_player(BasePage):
     Adding_match_player = "//*[@id='Adding match']"
     My_team_xpath = "//*[text()='My team']"
@@ -19,4 +18,3 @@ class Add_match_player(BasePage):
     Rating_xpath="//*[text()='Rating']"
     Submit_button_xpath=" //*[contains(@class, 'MuiButtonBase-root MuiButton-root')]"
     Clear_button_xpath="//*[text()='Clear']"
-    pass
