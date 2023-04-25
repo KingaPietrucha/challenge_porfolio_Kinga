@@ -29,3 +29,18 @@ Podjełam się wyzwania ponieważ odkąd ukończyłam kurs na testera manualnego
 //*[text()="Remind password"]
 //child::div/a
 
+## Zadanie 3: Pierwszy test automatyczny i asserty
+### To zadanie pozwoliło mi :
+- poznać dogłębnie framework, na którym będziemy pracować,
+- klikać w elementy na stronie,
+- wypełniać pola tekstem,
+- wykorzystać assert title, 
+- uruchomić test
+
+## Zadanie 4: Refactor, debugger i przypadki testowe
+### To zadanie pozwoliło mi :
+- wykonać refactor naszego kodu,
+- dowiedzieć się jak pracować z debuggerem,
+- rozwinąć skrzydła wyobraźni- zaprojektujesz i napiszesz test case’y,
+- zautomatyzować stronę internetową na podstawie swoich TC
+Film z automatyzacji przypadków testowych: https://drive.google.com/drive/u/1/folders/1I_vh__vYzXIorcLUy-cDt65qDaxwi_eE
