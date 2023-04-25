@@ -1,16 +1,17 @@
-from pages.base_page import BasePage
+import os
+
 import os
 import time
 import unittest
 from selenium import webdriver
 
 from pages.dashboard import Dashboard
-from pages.add_a_player import AddPlayer, MainPage
+from pages.add_a_player import MainPage
 from pages.login_page import LoginPage
 from utils.settings import DRIVER_PATH, IMPLICITLY_WAIT
 
 
-class TestAddAPlayer(unittest.TestCase):
+class TestFillAddAPlayer(unittest.TestCase):
     @classmethod
     def setUp(self):
         os.chmod(DRIVER_PATH, 755)
@@ -19,7 +20,7 @@ class TestAddAPlayer(unittest.TestCase):
         self.driver.fullscreen_window()
         self.driver.implicitly_wait(IMPLICITLY_WAIT)
 
-    def test_add_a_player(self):
+    def test_fill_add_player(self):
         user_login = LoginPage(self.driver)
         user_login.title_of_page()
         user_login.type_in_email('user01@getnada.com')
@@ -32,6 +33,7 @@ class TestAddAPlayer(unittest.TestCase):
         add_page = MainPage(self.driver)
         dashboard_page.title_of_page()
         time.sleep(5)
+
 
 
     @classmethod
