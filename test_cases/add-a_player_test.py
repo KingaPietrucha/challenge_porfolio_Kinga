@@ -26,11 +26,9 @@ class TestAddAPlayer(unittest.TestCase):
         user_login.type_in_password('Test-1234')
         user_login.click_on_the_sign_in_button()
         dashboard_page = Dashboard(self.driver)
-        dashboard_page.title_of_page()
         time.sleep(5)
         user_login.click_on_add_player_button()
         add_page = MainPage(self.driver)
-        dashboard_page.title_of_page()
         time.sleep(5)
 
 
